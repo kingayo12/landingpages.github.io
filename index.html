@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <title>Landing page</title>
+</head>
+
+<body>
+  <div class="nav_container">
+    <div class="nav clearfix">
+      <div class="logo_cont">
+        <img src="/assets/img/image.png" alt="">
+      </div>
+      <div class="nav_links">
+        <a href="/login">Login</a>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <div class="container">
+          <div class="left_content">1</div>
+          <div class="right_content">1</div>
+        </div>
+      </div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+
+
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script>
+    const swiper = new Swiper('.swiper', {
+      loop: true,
+      effect: "fade",
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+    });
+  </script>
+</body>
+
+</html>
