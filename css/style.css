@@ -140,7 +140,7 @@ body {
 }
 
 .bg1 {
-  background: url(/assets/img/28.png) no-repeat;
+  background: url(/img/28.png) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -170,5 +170,3 @@ body {
   align-items: center;
   justify-content: center;
 }
-
-.button;
